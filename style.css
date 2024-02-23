@@ -1,0 +1,46 @@
+/* propiedades:
+
+*/
+/* BOX MODELING: 
+height
+width
+*/
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.box{
+    background-color: rgb(82, 82, 82);
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+.box h2{
+    color: white;
+    border-left: 20px;
+    margin: 0px;
+    padding: 20px 10px 10px 15px;
+}
+.box p{
+    color: white;
+    padding: 10px 0px 15px 15px;
+    margin: 0px;
+}
+.box h3{
+    color: white;
+    padding: 10px 0px 15px 15px;
+    margin: 0px;
+}
+.h3 a{
+    color: gold;
+    backdrop-filter: 3px;
+}
+.h3 input{
+    border-color: goldenrod;
+}
+
